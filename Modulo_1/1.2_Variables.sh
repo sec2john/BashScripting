@@ -34,5 +34,20 @@ echo \$$ganancia
 #o tambien: 
 #echo "$"$ganancia
 
+#readonly var
+readonly saludo="Bienvenido "
+#declare -r saludo="Bienvenido "
+saludo="Adios " #dará error de variable de solo lectura.
+#uso
+echo $saludo$nombre"!!"
+
+#unset
+#declare dying="unset me"
+#declare -p dying
+#unset dying
+#declare -p dying
+
+#unset de variable de solo lectura: Dará error
+#unset edad
 
 
