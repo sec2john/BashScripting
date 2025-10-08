@@ -20,7 +20,7 @@ echo *.java
 shopt -u nullglob
 
 echo *.java
-#shopt -s failglob
+shopt -s failglob
 echo "ficheros *java?"
 echo *.java
 shopt -u failglob
@@ -31,24 +31,4 @@ shopt -s globstar
 echo ~/**
 read
 echo ~/**/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

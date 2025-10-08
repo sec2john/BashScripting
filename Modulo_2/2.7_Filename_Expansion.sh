@@ -74,23 +74,3 @@ echo
 echo "$globFolder/..Mayus¿?.."
 #ls -l "$globFolder/"*[[:upper:]]*
 ls -l "$globFolder/"*[[:space:]]*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

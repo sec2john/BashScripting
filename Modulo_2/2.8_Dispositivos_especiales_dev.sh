@@ -34,13 +34,3 @@ ls nofile 2>/dev/stdout
 
 
 
-
-
-
-
-
-
-
-
-
-
