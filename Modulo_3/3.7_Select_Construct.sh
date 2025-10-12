@@ -7,7 +7,7 @@
 # Modulo 3
 # Lección 3.7 Constructo Select
 #
-# 
+# Ejecutar directamente
 #
 # https://www.sec2john.com
 #
