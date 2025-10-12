@@ -1,0 +1,59 @@
+#!/usr/bin/env bash
+#       ____        ___     __     __
+#      / __/__ ____|_  |__ / /__  / /  ___
+#     _\ \/ -_) __/ __// // / _ \/ _ \/ _
+#    /___/\__/\__/____/\___/\___/_//_/_//_/
+#
+# Modulo 3
+# Lección 3.9 Agrupaciones y listas de comandos
+#
+# 
+#
+# https://www.sec2john.com
+#
+
+# Cambio de directorio en subshell y contexto de ejecucion padre
+(
+    cd /tmp
+    echo "Ahora estoy en: $PWD"
+    VAR="()"
+)
+echo "Vuelvo a: $PWD"
+
+{
+    cd /tmp
+    echo "Estoy en: $PWD"
+    VAR="{}"
+}
+echo "Sigo en: $PWD"
+
+################
+
+#Punto y coma
+echo "Primero"; echo "Segundo"; ls nofile; echo "Tercero"
+
+#&&
+mkdir /tmp/test && echo "Directorio creado" 
+mkdir /root/test || echo "Error al crear"
+
+#condicion ternaria
+mkdir /tmp/test && echo "Directorio creado" || echo "Error al crear"
+mkdir /root/test && echo "Directorio creado" || echo "Error al crear"
+
+##################
+
+echo
+echo "Combinacion agrupacion + lista (Éxito) "
+{
+    echo "Inicio de tarea"
+    echo "Accion 1 ejecutada"
+} && echo "Bloque exitoso" || echo "Bloque falló"
+
+echo
+echo "Combinacion agrupacion + lista (Fallo del ultimo comando) "
+{
+    echo "Inicio de tarea"
+    ls nofile
+} && echo "Bloque exitoso" || echo "Bloque falló"
+
+echo
