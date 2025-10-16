@@ -22,9 +22,9 @@ echo "..."
 echo "Instrucción n"
 
 # flujo simple con condicionales
+echo "Flow con condicionales"
+echo "Instrucción 1"
 if [[ $1 == "1" ]]
- echo "Flow con condicionales"
- echo "Instrucción 1"
  then
   echo "Instrucción escondida!"
  fi
