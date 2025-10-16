@@ -14,7 +14,7 @@
 #
 
 # Comprobar si el parámetro es numerico y lo asigna a "edad"
-(( $1 )) && edad=$1 || echo "Se esperaba un parámetro >0"; exit 1;
+(( $1 )) && edad=$1 || { echo "Se esperaba un parámetro >0"; exit 1; }
 
 
 if [ $edad -le 2 ];
@@ -30,8 +30,6 @@ if [ $edad -le 2 ];
   echo "Abuelo";
 fi
   
-
-
 
 
 
