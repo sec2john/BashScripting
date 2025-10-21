@@ -52,7 +52,7 @@ if (($1));
 if (($1));
  then
   f=$(tr ' ' '\n' <<< $(factor $1) | wc -l);
-  if [[ ! $f < 100 && $f -le 2 ]];
+  if [[ ! $1 < 100 && $f -le 2 ]];
    then
     echo "Mensaje 3";
    fi
