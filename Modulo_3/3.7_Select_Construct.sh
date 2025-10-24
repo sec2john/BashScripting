@@ -14,7 +14,7 @@
 
 # Select simple
 echo "Select simple. Seleccionar un medio de transporte"
-
+PS3="Por favor introduce una opción:"
 select medio in "bicicleta" "coche" "bus" "avion" "exit"; 
  do
   echo "Has escogido $medio."
