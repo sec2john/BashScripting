@@ -7,7 +7,7 @@
 # Modulo 4
 # Lección 4.6 Sustitución de Procesos (Process Substitution)
 #
-# Ejecutar con dos directorios como aprametros $1 y $2
+# Ejecutar con dos directorios como parámetros $1 y $2
 # El script compara los ficheros regulares contenidos 
 # en dos directorios parámetro.
 #
