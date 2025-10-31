@@ -10,7 +10,7 @@
 # Este script debe invocarse en dos shells distintas
 # uno como productor y el otro como consumidor.
 # param "1": script consumidor
-# param "5": script productor
+# param "2": script productor
 #
 # https://www.sec2john.com
 #

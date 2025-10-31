@@ -18,7 +18,7 @@
 
 counter=0
 function increment {
- #local counter
+#local counter
  ((counter++))
  echo "increment: $counter" 
 }
