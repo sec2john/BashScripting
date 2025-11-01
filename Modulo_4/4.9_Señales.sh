@@ -16,7 +16,7 @@
 if [[ $1 == 1 ]]; then
 
 cleanup() {
- echo "realizando limpieza amtes de salir..."
+ echo "realizando limpieza antes de salir..."
  #rm tempfile ... 
  exit 0
 }
