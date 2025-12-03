@@ -57,7 +57,7 @@ if [[ $(\ls $backupDir | wc -l) -gt 0 ]];
  then
   echo "Folder not empty"
   $(rm "$backupDir/"*)
-  [[ $! != 0 ]] || { echo " Couldn't remove files in $backupDir. Exiting..."; exit 1; }
+  [[ $? != 0 ]] && { echo " Couldn't remove files in $backupDir. Exiting..."; exit 1; }
 fi
 
   echo "Folder empty."
@@ -66,6 +66,6 @@ fi
   #zip $backupDir/$bckname  fileA fileB ... fileN
   echo "zipping $backupDir/$bckname ..."
   zip "$backupDir/$bckname" "${files[@]}" 1>/dev/null
-  [[ $! != 0 ]] || { echo " Couldn't zip files. Exiting..."; exit 1; }
+  [[ $? != 0 ]] && { echo " Couldn't zip files. Exiting..."; exit 2; }
 
 echo "End of script"
