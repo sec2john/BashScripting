@@ -1,3 +1,8 @@
+<p align="center">
+  <img align="left" src="assets/thumb.png" alt="Bash Scripting Profesional" width="450">
+</p>
+
+
 # Bash Scripting Profesional – Scripts del curso
 
 Repositorio oficial de scripts asociados al curso Bash Scripting Profesional de [Sec2John](https://sec2john.com/) en la academia [LionX Security](https://lionxsecurity.es/course/3/).
