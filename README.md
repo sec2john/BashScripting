@@ -1,6 +1,6 @@
 # Bash Scripting Profesional – Scripts del curso
 
-Repositorio oficial de scripts asociados al curso Bash Scripting Profesional de [Sec2John](https://sec2john.com/)
+Repositorio oficial de scripts asociados al curso Bash Scripting Profesional de [Sec2John](https://sec2john.com/) en la academia [LionX Security](https://lionxsecurity.es/course/3/).
 
 Aquí encontrarás un script por lección, diseñado para acompañar y reforzar los conceptos explicados en cada vídeo mediante ejemplos reales y ejecutables en sistemas Linux.
 
