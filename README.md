@@ -80,6 +80,7 @@ Uso avanzado del shell para crear scripts modulares, reutilizables y robustos.
 * 4.8_Background_processes.sh – Procesos en background y control de jobs
 * 4.9_Señales.sh – Señales y manejo con trap
 * 4.10_Co-procesos.sh – Coprocesos (coproc)
+* 4.11_Internal_Field_Separator_IFS.sh
 
 ### Módulo 5 – Escenarios completos
 Scripts que integran múltiples conceptos del curso en casos reales.
